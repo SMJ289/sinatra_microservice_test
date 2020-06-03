@@ -12,7 +12,7 @@ class YouTubeService
 
   def self.conn
     Faraday.new(url: 'https://www.googleapis.com/youtube/v3') do |f|
-      f.params['key'] = 'AIzaSyAYvomeKFpJV7vuCo6EYQdwbzehrqrqOAw'
+      f.params['key'] = ''
     end
   end
 end
